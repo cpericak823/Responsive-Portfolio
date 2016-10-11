@@ -114,6 +114,7 @@ h1 {
 }
 	h1 {
 		float: none;
+		text-align: center;
 	}
 	
 	.navigation {
@@ -128,7 +129,6 @@ h1 {
 
 	.content{
 		max-width: 100%;
-		/*padding-top: 20px;*/
 	}
 	
 	.section{
@@ -149,6 +149,50 @@ h1 {
 	body {
 		width: 100%;
 	}
+
+	.container {
+		max-width: 100%;	
+	}
+
+	header {
+		position: fixed;
+		width: 100%;
+		text-align: center;
+	}
+}
+	h1 {
+		float: none;
+		text-align: center;
+	}
+	
+	.navigation {
+		float: none;
+		text-align: center;
+	}
+
+	.spacer{
+		width: 100%;
+    	height: 100px;
+	}
+
+	.content{
+		max-width: 100%;
+	}
+	
+	.section{
+		float: none;
+		width: 100%;
+	}
+	
+	.aside {
+		float:none;
+		max-width: 100%;
+	}
+
+	.footer{
+		max-width: 100%;
+	}
+
 }
 
 @media screen and (max-width: 980px){
